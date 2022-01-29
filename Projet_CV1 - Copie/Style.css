@@ -1,0 +1,151 @@
+body 
+{
+  font-family:Times, Times New Roman;
+  font-size: 19px;
+}
+
+.container 
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+img
+{   
+    border-radius: 20%;
+    /*justify-items: left;
+    display:grid;
+   grid-row-start: span3;*/
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 300px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+} 
+}
+
+figcaption
+{
+    font-size: 22px;
+}
+
+/*.head*/
+{   
+
+    /*justify-items: center;*/
+    /* justify-content: space-evenly;*/
+    /* display: grid;*/
+    /*justify-content: center;*/
+
+}
+
+header 
+{
+    border-radius: 2%;
+    margin-bottom: 20px;
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #056AA0;
+    color: white;
+}
+
+main 
+{
+    margin-top: 20px;
+    border-radius: 2%;
+    box-shadow: -12px 8px 10px #8b8282;
+    font-size: 20px;
+    color: white;
+    background-color: #185475;
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+}
+
+nav
+{
+    align-content: space-evenly;
+    justify-items: center;
+    box-shadow: -20px 8px 10px gray;    
+    display: grid;
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+aside
+{
+    margin-left: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 12px 10px gray;
+    justify-items: center;
+    display: grid;
+    padding: 20px;
+    background-color: white;
+}
+
+aside > ul > li
+{       
+
+    box-shadow: 11px -12px 13px 1px #6e6c6c;
+    list-style: none;
+}
+
+
+.foot > ul 
+{
+    margin-right: 30px;
+    list-style: none;
+    flex-direction: column;
+    align-items:center;
+    /* justify-items: left;*/
+    display:flex;
+}
+
+footer 
+{
+    border-radius: 2%;
+    margin-top: 20px;
+    justify-content: center;
+    display: grid;
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #056AA0;
+    color: white;
+}
+
+h1 
+{
+    grid-row-start: 2;
+    display: grid;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.certif
+{
+    text-align: center;
+    margin-bottom: 20px;
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #056AA0;
+    color: white;
+}
+
+figure
+{
+    font-style: italic;
+}
+
