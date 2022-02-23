@@ -92,14 +92,6 @@ footer {
   color: white;
 }
 
-h1 {
-  grid-row-start: 2;
-  display: grid;
-  margin-bottom: 1em;
-  font-size: 1.3em;
-  font-weight: bold;
-}
-
 .certif {
   text-align: center;
   margin-bottom: 20px;
