@@ -33,16 +33,6 @@ figcaption
     font-size: 22px;
 }
 
-/*.head*/
-{   
-
-    /*justify-items: center;*/
-    /* justify-content: space-evenly;*/
-    /* display: grid;*/
-    /*justify-content: center;*/
-
-}
-
 header 
 {
     border-radius: 2%;
@@ -71,8 +61,7 @@ main
 nav
 {
     align-content: space-evenly;
-    justify-items: center;
-    box-shadow: -20px 8px 10px gray;    
+    justify-items: center;    
     display: grid;
     background-color: white;
     padding: 20px;
@@ -84,7 +73,6 @@ aside
 {
     margin-left: 5px;
     margin-top: 20px;
-    box-shadow: 3px 12px 10px gray;
     justify-items: center;
     display: grid;
     padding: 20px;
